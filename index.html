@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tirages de cartes · démonstration</title>
+  <meta name="description" content="Démonstration de deux tirages de cartes avec interprétation par IA (cartes et textes inventés).">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%234a2c4f'/%3E%3Cpath d='M16 6l2.6 6.4L25 13l-5 4.3 1.6 6.7L16 20.5 10.4 24 12 17.3 7 13l6.4-.6z' fill='%23e3c27d'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <p class="bandeau">Démonstration : cartes, textes et interprétations inventés. Dans votre outil, ce sont vos cartes, vos textes et vos consignes.</p>
+
+  <header class="tete">
+    <p class="surtitre">Tirage de cartes</p>
+    <h1>Tirez vos cartes, lisez votre histoire</h1>
+    <p class="intro">Deux tirages, trois cartes chacun. L'IA relie les cartes entre elles et rédige une interprétation à partir de vos propres textes et de vos consignes.</p>
+  </header>
+
+  <main>
+    <div class="onglets" role="tablist" aria-label="Choix du tirage">
+      <button type="button" role="tab" id="onglet-heros" aria-controls="tirage" aria-selected="true">Les Héros cachés</button>
+      <button type="button" role="tab" id="onglet-tarot" aria-controls="tirage" aria-selected="false">Le tarot</button>
+    </div>
+
+    <section id="tirage" class="tirage" role="tabpanel" aria-live="polite"></section>
+
+    <section class="coulisses" aria-labelledby="t-coulisses">
+      <h2 id="t-coulisses">Comment l'IA est encadrée</h2>
+      <p>À chaque tirage, l'IA ne reçoit que trois choses : les fiches des cartes tirées, vos consignes pour ce tirage, et deux ou trois interprétations que vous jugez réussies, comme modèles de ton. Elle n'invente pas le sens des cartes : elle relie les vôtres.</p>
+      <details id="recu">
+        <summary>Voir ce que l'IA reçoit pour le tirage affiché</summary>
+        <div id="recu-contenu"></div>
+      </details>
+    </section>
+
+    <section class="gestion" aria-labelledby="t-gestion">
+      <h2 id="t-gestion">Ce que vous modifiez vous-même</h2>
+      <p class="aide">Dans votre WordPress : un menu « Cartes » (une fiche par carte : nom, famille ou position, image, texte de référence) et une page « Consignes des tirages ». Aperçu ci-dessous : vos modifications sont prises en compte au tirage suivant.</p>
+      <div class="gestion-grille">
+        <form id="form-carte" class="panneau">
+          <h3>Une fiche de carte</h3>
+          <label class="champ">Carte
+            <select id="choix-carte"></select>
+          </label>
+          <label class="champ">Texte de référence
+            <textarea id="texte-carte" rows="4"></textarea>
+          </label>
+          <button type="submit" class="bouton">Enregistrer la fiche</button>
+        </form>
+        <form id="form-consignes" class="panneau">
+          <h3>Vos consignes à l'IA</h3>
+          <label class="champ">Tirage
+            <select id="choix-consignes">
+              <option value="heros">Les Héros cachés</option>
+              <option value="tarot">Le tarot</option>
+            </select>
+          </label>
+          <label class="champ">Consignes
+            <textarea id="texte-consignes" rows="6"></textarea>
+          </label>
+          <button type="submit" class="bouton">Enregistrer les consignes</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pied">
+    <p>Démonstration statique : les interprétations ont été rédigées à l'avance par l'IA pour trois combinaisons de chaque tirage. Dans votre outil, elles sont rédigées à chaque tirage, avec vos textes à jour.</p>
+  </footer>
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="assets/app.js"></script>
+</body>
+</html>
