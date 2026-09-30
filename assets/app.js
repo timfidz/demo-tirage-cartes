@@ -1,5 +1,5 @@
 // Tirages de cartes : démonstration statique.
-// Les interprétations sont rédigées à l'avance pour trois combinaisons par tirage ;
+// Les interprétations de trois combinaisons par tirage ont été générées par l'IA (Claude, modèle Sonnet) à partir des seules fiches et consignes ci-dessous, puis enregistrées ;
 // dans l'outil livré, elles sont rédigées par l'IA à chaque tirage, à partir des fiches et des consignes.
 (() => {
   const $ = (s) => document.querySelector(s)
@@ -51,35 +51,34 @@
         {
           cartes: ["lanterne", "racine", "pont"],
           texte: [
-            "Votre histoire commence par un éclairage. La Lanterne met en lumière quelque chose que vous saviez déjà sans vous l'avouer. Ce n'est pas un reproche : c'est une invitation à regarder calmement ce qui est là.",
-            "Pour avancer avec cette vérité, vous n'êtes pas sans appui. La Racine vous rappelle d'où vous venez : les personnes, les lieux et les épreuves qui vous ont fait tenir. Ce socle ne vous retient pas en arrière, il vous permet de rester debout face à ce que la Lanterne révèle.",
-            "Reste le passage. Le Pont dit qu'entre ce que vous voyez maintenant et ce que vous voulez vivre, il y a un geste à poser : une parole, un appel, une décision. Il se construit des deux côtés : vous n'avez pas à tout porter.",
-            "Réécrire votre histoire, ici, c'est oser regarder, s'appuyer sur ses racines, puis faire le premier pas sur le pont.",
+            "La Lanterne ouvre votre tirage. Elle éclaire ce que vous n'osiez pas regarder. Une vérité simple, déjà là, attend d'être vue sans jugement. Vous pouvez la regarder à votre rythme, comme on approche une lumière d'un coin de pièce que l'on évitait depuis longtemps.",
+            "La Racine vous montre sur quoi vous pouvez vous appuyer pour faire ce pas. Vos origines, vos appuis, les personnes qui vous ont fait tenir sont là, avec vous. Ce qui vous ancre vous porte aussi. Vous n'avez pas à regarder cette vérité sans soutien : vos appuis lui donnent un sol stable.",
+            "Le Pont relie les deux. Il est un geste, une parole ou une décision qui rapproche deux rives : ce que vous voyez à présent et la manière dont vous choisissez de raconter votre histoire. Il se construit des deux côtés : votre regard neuf d'un côté, ce qui vous soutient depuis toujours de l'autre.",
+            "Réécrire votre histoire ne consiste donc pas à effacer des pages. Il s'agit d'y ajouter un éclairage, de reconnaître vos appuis et de choisir un premier geste, aussi petit soit-il : une parole, une décision, un simple mot dit à voix haute.",
           ],
-          affirmation: "Je regarde ce qui est là, et je m'appuie sur ce qui me porte.",
-          message: "Le premier pas suffit : le pont se construit en marchant.",
+          affirmation: "Je regarde ma vérité avec douceur, je m'appuie sur mes racines et je construis mon pont, un pas après l'autre.",
+          message: "Ce qui est vu avec bienveillance devient un chemin.",
         },
         {
           cartes: ["miroir", "flamme", "messager"],
           texte: [
-            "Le Miroir ouvre votre tirage avec une question délicate : ce qui vous agace chez les autres en ce moment dit peut-être quelque chose de vous. Pas un défaut à corriger, plutôt une part de vous mise de côté, qui demande à revenir.",
-            "La Flamme montre ce que cette part contient : un désir resté vivant. Même discret, il n'a jamais cessé de brûler. C'est lui qui donne la direction, plus que la raison ou la peur.",
-            "Le Messager relie les deux. Une rencontre, une conversation ou un signe va vous tendre ce miroir de nouveau, sous une forme plus douce. Si vous l'écoutez sans vous défendre, il vous montrera comment rendre à ce désir la place qu'il mérite.",
-            "Votre histoire se réécrit en accueillant ce que le miroir montre, pour laisser la flamme éclairer le chemin.",
+            "Le Miroir ouvre ce tirage. Il vous invite à regarder ce que vous reprochez aux autres, et à vous demander avec douceur si cela ne parle pas aussi de vous. Il vous propose de reconnaître une part de vous laissée de côté, sans la juger.",
+            "La Flamme apparaît comme votre ressource. C'est le désir qui ne s'éteint pas, qu'il soit petit ou grand. Il indique la direction. Peut-être la part que le Miroir vous montre est-elle proche de ce désir, comme si elle attendait d'être retrouvée pour que la flamme éclaire votre chemin.",
+            "Le Messager tient le rôle de médiateur. Une information, une rencontre, un signe peut arriver au bon moment, à condition de prendre le temps de l'écouter. Il relie ce que vous reconnaissez et ce que vous désirez : il suffit de rester à l'écoute.",
+            "Ensemble, ces trois cartes racontent une histoire que vous pouvez réécrire : reconnaître une part de vous laissée de côté, retrouver le désir qui vous oriente, puis écouter ce qui se présente. Vous pouvez avancer à votre rythme, en commençant par accueillir ce que le miroir vous montre.",
           ],
-          affirmation: "J'accueille ce que je vois en moi, et je laisse mon désir me guider.",
-          message: "Écoutez ce qui revient : c'est souvent ce qui compte.",
+          affirmation: "J'accueille toutes les parts de moi, je m'appuie sur mon désir pour avancer et j'écoute avec confiance ce qui se présente au bon moment.",
+          message: "Ce que vous reconnaissez en vous devient une direction.",
         },
         {
           cartes: ["cle", "puits", "main"],
           texte: [
-            "La Clé apporte une bonne nouvelle : la porte que vous pensiez fermée ne l'est pas. Ce qui vous a manqué jusqu'ici n'est pas le courage, c'est une question juste. Laquelle vous poseriez-vous si vous saviez que la réponse peut être oui ?",
-            "Le Puits vous montre où chercher : en vous, dans ce que vous avez déjà traversé. Vos expériences, même difficiles, ont rempli une réserve profonde. Vous savez déjà faire plus que vous ne le pensez.",
-            "La Main tendue complète le tableau : cette porte ne s'ouvre pas forcément seule. Accepter une aide, demander un conseil ou proposer le vôtre à quelqu'un fait partie du chemin. Ce n'est pas un aveu de faiblesse.",
-            "Votre histoire change de chapitre quand vous posez la bonne question, puisez dans vos ressources et acceptez qu'on vous accompagne.",
+            "Il y a dans votre histoire une porte que vous teniez pour fermée. La Clé vous rappelle qu'elle ne l'est peut-être pas : il ne vous manquait pas de force, seulement une question. Celle que vous n'aviez jamais osé poser, ou que personne ne vous avait offerte. Réécrire son histoire commence souvent là, par une question nouvelle posée à un passage ancien.",
+            "Pour aller vers cette porte, vous n'arrivez pas les mains vides. Le Puits parle de tout ce que vous avez traversé : les épreuves, les patiences, les détours. Rien de cela n'a été perdu. Cela s'est déposé en vous comme une réserve profonde, et vous y puisez déjà plus que vous ne le croyez. Ce que vous avez vécu devient une matière à laquelle vous pouvez faire appel, plutôt qu'un poids à porter.",
+            "La Main tendue relie les deux. Elle vous invite à accepter l'aide quand elle se présente, ou à l'offrir à votre tour. Une porte s'ouvre plus facilement lorsque quelqu'un la tient avec vous, et personne ne traverse seul. Dans le récit que vous êtes en train d'écrire, une autre personne peut devenir un chapitre à part entière.",
           ],
-          affirmation: "J'ai en moi ce qu'il faut pour ouvrir cette porte, et j'accepte qu'on m'accompagne.",
-          message: "Une bonne question ouvre plus de portes que la force.",
+          affirmation: "Je me donne le droit de poser la question qui ouvre la porte, et j'accepte que l'on marche à mes côtés.",
+          message: "La porte s'ouvre avec une question, et la traversée se fait à plusieurs.",
         },
       ],
     },
@@ -93,28 +92,28 @@
         {
           cartes: ["etoile", "pendu", "chariot"],
           texte: [
-            "En situation, L'Étoile indique que vous sortez d'une période difficile : la confiance revient, doucement, et vous êtes de nouveau capable de donner. C'est une base solide pour la suite.",
-            "Le défi, c'est Le Pendu. Quelque chose semble à l'arrêt, une situation qui n'avance pas comme vous le voudriez. La carte ne dit pas d'attendre sans rien faire : elle invite à changer d'angle et à regarder la question autrement.",
-            "Le conseil, Le Chariot, répond au Pendu : une fois le regard changé, remettez-vous en mouvement, avec décision. L'Étoile vous en donne l'élan, le Chariot vous demande de tenir les rênes.",
-            "Ensemble, ces trois cartes racontent un passage : de l'espoir retrouvé à l'action, par un changement de regard nécessaire.",
+            "Votre situation est portée par L'Étoile : après une épreuve, la confiance revient et quelque chose se remet à couler en vous. Cette carte parle d'espoir et de générosité. Elle décrit un moment où vous pouvez de nouveau vous ouvrir, donner et recevoir, sans que cela soit forcé.",
+            "Le Pendu se place en défi, et il répond à l'Étoile d'une manière inattendue. L'espoir retrouvé ne se traduit pas encore par de l'action : quelque chose paraît suspendu, bloqué. La carte ne vous demande pas de forcer le passage. Elle vous invite à lâcher prise et à regarder cette situation depuis un autre angle. Le défi consiste peut-être à accepter cette pause sans la vivre comme un échec, et à laisser votre regard changer avant de chercher à agir.",
+            "Le Chariot, en conseil, vient prolonger ce travail. Une fois le regard déplacé, la volonté peut se remettre en mouvement. Cette carte parle de maîtrise et de la capacité à tenir ensemble des forces contraires. Elle fait écho au Pendu : vous n'avez pas à choisir entre l'élan et la patience, entre l'espoir et la prudence. Vous pouvez avancer en conservant les deux.",
+            "Ainsi, les trois cartes dessinent un enchaînement : une confiance qui revient, un temps de recul pour voir autrement, puis un mouvement que vous dirigez vous-même. Cette lecture n'annonce rien. Elle propose une manière d'habiter ce moment, que vous restez libre d'accueillir ou non.",
           ],
         },
         {
           cartes: ["lune", "force", "soleil"],
           texte: [
-            "La Lune, en situation, décrit une période où tout n'est pas clair. Vos émotions sont vives, votre intuition travaille, et vous avancez sans voir toute la route. Ce flou n'est pas un danger en soi.",
-            "Le défi, La Force, vous demande de traverser cette période avec douceur plutôt qu'avec contrôle. Vouloir tout comprendre tout de suite nourrirait l'inquiétude ; la Force propose le courage tranquille de rester là, calmement, sans forcer.",
-            "Le conseil, Le Soleil, montre où mène ce chemin : vers la clarté, et vers des relations simples et chaleureuses. Cherchez la lumière dans ce qui est simple, une conversation franche, un moment partagé.",
-            "Le tirage va de la nuit au jour : la douceur de la Force fait le lien entre les doutes de la Lune et l'évidence du Soleil.",
+            "Dans la position Situation, La Lune décrit un moment où les émotions sont vives et où l'intuition parle plus fort que la raison. Tout n'est pas clair pour vous en ce moment, et cette incertitude n'est pas un danger : elle signale simplement que certaines choses ne sont pas encore lisibles. Vous n'avez pas à tout comprendre tout de suite.",
+            "La Force, en position Défi, ne vous demande pas de lutter contre ce brouillard. Le défi consiste plutôt à y répondre par la douceur et par un courage tranquille. La vraie force ne force pas : ici, elle se manifeste dans la patience envers vous-même et envers vos émotions, plutôt que dans la volonté de trancher ou de contrôler. Vous pouvez, sans vous brusquer, apprivoiser ce qui vous trouble.",
+            "On voit ainsi comment ces deux cartes se répondent. La Lune apporte ce qui est flou et sensible ; La Force propose une manière de l'accueillir, sans crispation. La douceur est l'attitude qui permet de rester présent dans l'incertitude sans la fuir ni la combattre.",
+            "Le Soleil, en position Conseil, vous invite alors à vous tourner vers la clarté, la joie et les relations simples et chaleureuses. Il rappelle que ce qui était confus peut devenir évident. Ce n'est pas une promesse, mais une orientation : appuyez-vous sur ce qui est simple, chaleureux et lumineux autour de vous, et laissez cette clarté éclairer peu à peu ce que La Lune laissait dans l'ombre.",
           ],
         },
         {
           cartes: ["ermite", "roue", "imperatrice"],
           texte: [
-            "L'Ermite, en situation, vous montre en retrait, en recherche. Vous avez besoin de temps pour comprendre ce que vous voulez vraiment. Sa lanterne n'éclaire que le pas suivant, et c'est suffisant.",
-            "Le défi, La Roue de Fortune, annonce que les choses bougent autour de vous, peut-être plus vite que votre réflexion. La difficulté sera de ne pas rester à l'écart trop longtemps quand une occasion se présente.",
-            "Le conseil, L'Impératrice, vous invite à passer de la réflexion à l'expression : donnez forme à ce qui a mûri pendant ce temps de retrait, un projet, une parole, une création.",
-            "Ensemble, les trois cartes disent que ce temps de recul a été fécond. La roue tourne : c'est le moment de faire naître ce que vous avez porté.",
+            "Votre situation actuelle est portée par L'Ermite : vous êtes dans un temps de recul, de recherche intérieure. Vous prenez de la distance pour mieux entendre ce qui compte. Sa lanterne n'éclaire que le pas suivant, et non toute la route. Il n'est donc pas nécessaire de tout voir clairement pour avancer.",
+            "La Roue de Fortune apparaît comme défi : la vie continue de tourner pendant votre retrait. Des cycles se ferment, d'autres s'ouvrent, et ce mouvement peut déstabiliser quand on aspire au calme. Il s'agit d'accueillir le changement sans vous crisper, car ce qui tourne apporte aussi du nouveau. Des opportunités peuvent surgir, et votre lanterne suffit pour les reconnaître une à une.",
+            "L'Impératrice vous conseille de donner forme à ce qui mûrit en vous. Le recul de l'Ermite a pu laisser germer quelque chose : une idée, un désir, une intuition. La créativité et l'expression en sont l'issue naturelle. Plutôt que d'attendre que la Roue se stabilise, vous pouvez vous appuyer sur son mouvement : ce qui a mûri dans le silence peut prendre corps dans un geste, un projet, une parole.",
+            "Les trois cartes dessinent ainsi un enchaînement : écouter, accueillir le mouvement, puis créer. Ce sont des pistes de réflexion, pas des verdicts : c'est à vous de décider ce que vous en faites.",
           ],
         },
       ],
@@ -173,7 +172,7 @@
       </ol>
       <div class="actions"><button type="button" class="bouton" id="tirer">${combi ? "Tirer à nouveau" : "Tirer les cartes"}</button></div>
       <article class="interpretation" id="interpretation" ${combi && etat === "retournees" ? "" : "hidden"}>
-        ${combi ? `<h2>Votre interprétation</h2>${combi.texte.map((p) => `<p>${p}</p>`).join("")}${combi.affirmation ? `<p class="affirmation"><span>Affirmation</span>${combi.affirmation}</p><p class="message"><span>Message</span>${combi.message}</p>` : ""}<p class="note">Rédigée à l'avance par l'IA pour cette combinaison, à partir des fiches et des consignes ci-dessous.</p>` : ""}
+        ${combi ? `<h2>Votre interprétation</h2>${combi.texte.map((p) => `<p>${p}</p>`).join("")}${combi.affirmation ? `<p class="affirmation"><span>Affirmation</span>${combi.affirmation}</p><p class="message"><span>Message</span>${combi.message}</p>` : ""}<p class="note">Générée par l'IA (Claude, modèle Sonnet) à partir des seules fiches et consignes ci-dessous, puis enregistrée pour la démonstration. Dans votre outil, elle est générée à chaque tirage.</p>` : ""}
       </article>`
     $("#tirer").addEventListener("click", tirer)
     afficherRecu()
@@ -210,7 +209,7 @@
     $("#recu-contenu").innerHTML = `
       <h3>1. Les fiches des cartes tirées</h3><ul class="fiches">${fiches}</ul>
       <h3>2. Vos consignes pour ce tirage</h3><p class="consignes">${consignes(tirage)}</p>
-      <h3>3. Vos exemples</h3><p>Deux ou trois interprétations que vous avez jugées réussies, pour donner le ton. Vous les fournissez au démarrage ; elles se remplacent comme le reste.</p>`
+      <h3>3. Vos exemples</h3><p>Deux ou trois interprétations que vous avez jugées réussies, pour donner le ton. Vous les fournissez au démarrage. Cette démonstration n'en contenait pas : avec les vôtres, le ton se rapproche du vôtre.</p>`
   }
 
   // ---- Onglets
